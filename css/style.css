@@ -272,7 +272,7 @@ button::-moz-focus-inner {
 
 .form__header {
     width: 350px;
-    height: 110px;
+    height: 75px;
     border-radius: 10px 10px 0px 10px;
     background: linear-gradient(180deg, #6A32B4 0%, #552693 100%);
     font-family: FuturaFuturisC;
@@ -321,6 +321,22 @@ input {
     margin: 0px auto;
 }
 
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 5vh;
+    font-weight: 600;
+    
+}
+
+.production__list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .profit {
     padding-top: 50px;
     background-image: url('../img/Group\ 515.png');
@@ -1058,13 +1074,13 @@ input {
 
 @media (max-width: 480px) {
     .wrapper {
-        width: 420px;
+        width: 100%;
         margin: 0 auto;
     }
 
     .header {
     
-        grid-template-columns: minmax(auto, 420px);
+        grid-template-columns: minmax(auto, 600px);
     }
 
 
